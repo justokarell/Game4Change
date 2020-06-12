@@ -7,12 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Landing - Free Bulma template</title>
     <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <!-- Bulma Version 0.8.2-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.2/css/bulma.min.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.2/css/bulma.min.css" /> -->
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="../css/landing.css">
 </head>
+
+<style>
+
+    * {
+        background-color: lightblue;
+    }
+
+    .left-container {
+        float: left;
+        width: 50%;
+    }
+
+    .right-container {
+        float: left;
+        width: 50%;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .schedule-item {
+        font-size: 25px;
+    }
+
+</style>
+
 
 <body>
     <section class="hero is-info is-fullheight">
@@ -70,13 +98,13 @@
             </div>
 
             <div class="hero-body">
-                <div class="container has-text-centered">
-                    <div class="column is-6 is-offset-3">
+                <div class="left-container has-text-centered">
+                    <div class="column is-7 is-offset-2">
                         <h1 class="title">
-                            Coming Soon
+                            Game4Change
                         </h1>
                         <h2 class="subtitle">
-                            $this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
+                        We connect charities with streamers who want to do good for the world. 
                         </h2>
                         <div class="box">
                             <div class="field is-grouped">
@@ -92,7 +120,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="right-container has-text-centered">
+                    <div class="column is-6 is-offset-1">
+                        <h1 class="title">
+                            Schedule
+                        </h1>
+                        <h2 class="schedule-item">Stream 1</h2>
+                    </div>
+                </div>
             </div>
+
+            
 
     </section>
     <script async type="text/javascript" src="../js/bulma.js"></script>
